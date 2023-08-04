@@ -1,0 +1,501 @@
+[
+    {
+        "asignatura_id": "Desarrollo de videojuegos",
+        "fecha": "Lunes",
+        "hora_inicio": "07:00",
+        "hora_fin": "9:00"
+    },
+    {
+        "asignatura_id": "Desarrollo de videojuegos",
+        "fecha": "Miercoles",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Investigacion de la Ingenieria de software",
+        "fecha": "Lunes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Investigacion de la Ingenieria de software",
+        "fecha": "Miercoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "PI profesionalizante - MA",
+        "fecha": "Miercoles",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion A",
+        "fecha": "Martes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion A - 1EAA",
+        "fecha": "Jueves",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion A - 1EAA",
+        "fecha": "Viernes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Gestion de proceso software",
+        "fecha": "Viernes",
+        "hora_inicio": "10:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion A - 1MEA",
+        "fecha": "Lunes",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion A - 1MEA",
+        "fecha": "Miercoles",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion A - 1MEA",
+        "fecha": "Viernes",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
+    },
+    {
+        "asignatura_id": "Laboratorio de produccion de software - PAC",
+        "fecha": "Lunes",
+        "hora_inicio": "11:00",
+        "hora_fin": "12:00"
+    },
+    {
+        "asignatura_id": "Sistemas Operativos",
+        "fecha": "Martes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Sistemas Operativos",
+        "fecha": "Viernes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Auditoria de tecnologia de informacion y comunicacion - 8CAA",
+        "fecha": "Lunes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Auditoria de tecnologia de informacion y comunicacion - 8CAA",
+        "fecha": "Viernes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Sistemas Avanzados de Bases de Datos",
+        "fecha": "Miercoles",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Sistemas Avanzados de Bases de Datos",
+        "fecha": "Miercoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Sistemas Avanzados de Bases de Datos",
+        "fecha": "Viernes",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
+    },
+    {
+        "asignatura_id": "Computacion digital",
+        "fecha": "Martes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Computacion digital",
+        "fecha": "Miercoles",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Computacion digital",
+        "fecha": "Jueves",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
+    },
+    {
+        "asignatura_id": "Aplicaciones Basadas en el Conocimeinto",
+        "fecha": "Lunes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Aplicaciones Basadas en el Conocimeinto",
+        "fecha": "Martes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Aplicaciones Basadas en el Conocimeinto",
+        "fecha": "Viernes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Lectura y escritura de textos academicos",
+        "fecha": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Lectura y escritura de textos academicos",
+        "fecha": "Miercoles",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "PI profesionalizante - JL",
+        "fecha": "Jueves",
+        "hora_inicio": "09:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "PI profesionalizante - JL",
+        "fecha": "Jueves",
+        "hora_inicio": "09:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Estructura de datos A",
+        "fecha": "Lunes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Estructura de datos A",
+        "fecha": "Miercoles",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Estructura de datos A",
+        "fecha": "Viernes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion B",
+        "fecha": "Lunes",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion B",
+        "fecha": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion B",
+        "fecha": "Miercoles",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Aplicaciones Moviles - PAC",
+        "fecha": "Jueves",
+        "hora_inicio": "10:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Desarrollo de Aplicaciones Moviles",
+        "fecha": "Lunes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Desarrollo de Aplicaciones Moviles",
+        "fecha": "Viernes",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
+    },
+    {
+        "asignatura_id": "Aplicaciones Distribuidas",
+        "fecha": "Jueves",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Aplicaciones Distribuidas",
+        "fecha": "Viernes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "PI profesionalizante - AC",
+        "fecha": "Jueves",
+        "hora_inicio": "07:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Ingenieria de requisitos de software A",
+        "fecha": "Lunes",
+        "hora_inicio": "07:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Ingenieria de requisitos de software A",
+        "fecha": "Miercoles",
+        "hora_inicio": "07:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Ingenieria de requisitos de software A",
+        "fecha": "Viernes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion A - 1AUA",
+        "fecha": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion A - 1AUA",
+        "fecha": "Miercoles",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion A - 1AUA",
+        "fecha": "Viernes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Arquitectura de Software",
+        "fecha": "Jueves",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Arquitectura de Software",
+        "fecha": "Viernes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Ingenieria de la seguridad del software",
+        "fecha": "Lunes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Ingenieria de la seguridad del software",
+        "fecha": "Viernes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Analisis y diseño de software",
+        "fecha": "Miercoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Analisis y diseño de software",
+        "fecha": "Jueves",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Programacion orientada a objetos - 2EAA",
+        "fecha": "Lunes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Programacion orientada a objetos - 2EAA",
+        "fecha": "Miercoles",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Programacion orientada a objetos - 2EAA",
+        "fecha": "Viernes",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion B - 1EAB",
+        "fecha": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion B - 1EAB",
+        "fecha": "Jueves",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion B - 1EAB",
+        "fecha": "Viernes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Gestion de Proyectos",
+        "fecha": "Lunes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Gestion de Proyectos",
+        "fecha": "Miercoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "PI profesionalizante - EE",
+        "fecha": "Martes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Aseguramiento de la calidad",
+        "fecha": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Aseguramiento de la calidad",
+        "fecha": "Viernes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de la ingenieria de software A",
+        "fecha": "Miercoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de la ingenieria de software A",
+        "fecha": "Jueves",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Desarrollo de software aplicado al dominio de la interculturalidad",
+        "fecha": "Miercoles",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Desarrollo de software aplicado al dominio de la interculturalidad",
+        "fecha": "Jueves",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Programacion orientada a objetos A - 2AUA",
+        "fecha": "Miercoles",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Programacion orientada a objetos A - 2AUA",
+        "fecha": "Viernes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion C - 1MEC",
+        "fecha": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion C - 1MEC",
+        "fecha": "Miercoles",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Fundamentos de programacion C - 1MEC",
+        "fecha": "Jueves",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Modelos discretos para ingenieria de software",
+        "fecha": "Lunes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Modelos discretos para ingenieria de software",
+        "fecha": "Martes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Modelos discretos para ingenieria de software",
+        "fecha": "Jueves",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Computacion Grafica",
+        "fecha": "Martes",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "Computacion Grafica",
+        "fecha": "Jueves",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
+    },
+    {
+        "asignatura_id": "PI profesionalizante - NJ",
+        "fecha": "Jueves",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Evaluacion de software - PAC",
+        "fecha": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+    },
+    {
+        "asignatura_id": "Redes de computadores A",
+        "fecha": "Martes",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    },
+    {
+        "asignatura_id": "Redes de computadores A",
+        "fecha": "Jueves",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+    }
+    
+]
