@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, TextInput, View, Alert, StyleSheet, Text, TouchableOpacity } from "react-native";
+import { Button, TextInput, View, Alert, StyleSheet, Text, TouchableOpacity, Image } from "react-native";
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -18,6 +18,7 @@ const LoginScreen = ({ navigation }) => {
 
   return (
     <LinearGradient colors={['#120C6E','#5E72EB','#ffffff' ,'#ffffff','#ffffff','#ffffff','#ffffff']} style={styles.container}>
+      <Image source={require('../assets/logoW.png')} style={styles.logo} />
       <Text style={styles.label}>Username</Text>
       <TextInput
         value={username}
@@ -48,6 +49,13 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     padding: 20,
+    marginTop: 50,
+  },
+  logo: {
+    width: 100,
+    height: 100,
+    alignSelf: 'center',
+    marginBottom: 150,
   },
   label: {
     fontSize: 20,
