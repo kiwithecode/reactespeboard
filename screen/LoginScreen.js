@@ -18,7 +18,7 @@ const LoginScreen = ({ navigation }) => {
 
   return (
     <LinearGradient colors={['#120C6E','#5E72EB','#ffffff' ,'#ffffff','#ffffff','#ffffff','#ffffff']} style={styles.container}>
-      <Image source={require('../assets/logoW.png')} style={styles.logo} />
+      <Image source={require('../assets/logoQ.png')} style={styles.logo} />
       <Text style={styles.label}>Username</Text>
       <TextInput
         value={username}
@@ -49,13 +49,12 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     padding: 20,
-    marginTop: 50,
   },
   logo: {
     width: 100,
     height: 100,
     alignSelf: 'center',
-    marginBottom: 150,
+    marginBottom: 10,
   },
   label: {
     fontSize: 20,
