@@ -9,7 +9,7 @@ const LoginScreen = ({ navigation }) => {
   const [hidePassword, setHidePassword] = useState(true);
 
   const onLogin = () => {
-    if (username === "admin" && password === "admin") {
+    if (username === "Admin" && password === "admin") {
       navigation.navigate("Home");
     } else {
       Alert.alert("Error", "Credenciales incorrectas");
