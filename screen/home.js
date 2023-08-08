@@ -79,26 +79,31 @@ const HomeScreen = () => {
       <Text style={styles.dateText}>{formattedDate}</Text>
       <Text style={styles.subjectTitle}>Materias del día 🌎</Text>
       <ScrollView
-  horizontal={true}
-  style={styles.carouselContainer}
-  contentContainerStyle={styles.carouselContentContainer}
->
-  {subjects
-    .filter((subject) => !registeredSubjects.includes(subject.name))
-    .map((subject) => (
-      <LinearGradient
-        key={subject.name}
-        colors={subject.colors}
-        style={styles.carouselItem}
+        horizontal={true}
+        style={styles.carouselContainer}
+        contentContainerStyle={styles.carouselContentContainer}
       >
-        <Text style={styles.subjectText}>{subject.name}</Text>
-        <Text style={styles.timeText}>{subject.time}</Text>
-        <TouchableOpacity onPress={() => handleRegister(subject.name)}>
-          <Text style={styles.registerText}>Registrar</Text>
-        </TouchableOpacity>
-      </LinearGradient>
-    ))}
-</ScrollView>
+        {subjects
+          .filter((subject) => !registeredSubjects.includes(subject.name))
+          .map((subject) => (
+            <LinearGradient
+              key={subject.name}
+              colors={subject.colors}
+              style={styles.carouselItem}
+            >
+              <Text style={styles.subjectText}>{subject.name}</Text>
+              <Text style={styles.timeText}>{subject.time}</Text>
+              <TouchableOpacity onPress={() => handleRegister(subject.name)}>
+                <Text style={styles.registerText}>Registrar</Text>
+              </TouchableOpacity>
+            </LinearGradient>
+          ))}
+        {registeredSubjects.length === subjects.length && (
+          <View style={styles.completedContainer}>
+            <Text style={styles.completedText}>Buen Trabajo!! 👍 👍</Text>
+          </View>
+        )}
+      </ScrollView>
     </SafeAreaView>
   );
 };
@@ -184,13 +189,28 @@ const styles = StyleSheet.create({
   },
   timeText: {
     fontSize: 20,
-    color: "#ffffff",
+    color: "#FFFFFF",
     marginTop: 10,
   },
   registerText: {
     fontSize: 25,
-    color: "#ffffff",
+    color: "#FFFFFF",
     marginTop: 20,
+    fontWeight: "bold",
+  },
+  completedContainer: {
+    justifyContent: "center",
+    alignItems: "center",
+    width: 380,
+    height: 300,
+    borderRadius: 40,
+    marginRight: 40,
+    backgroundColor: "transparent",
+    
+  },
+  completedText: {
+    fontSize: 30,
+    color: "#120C6E",
     fontWeight: "bold",
   },
 });
