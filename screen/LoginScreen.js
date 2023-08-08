@@ -37,9 +37,9 @@ const LoginScreen = ({ navigation }) => {
           <Ionicons name={hidePassword ? 'eye-off' : 'eye'} size={24} color='black' />
         </TouchableOpacity>
       </View>
-      <View style={styles.buttonContainer}>
-        <Button onPress={onLogin} title="Login" color="#5e72eb" />
-      </View>
+      <TouchableOpacity style={styles.customButton} onPress={onLogin}>
+  <Text style={styles.buttonText}>Login</Text>
+</TouchableOpacity>
     </LinearGradient>
   );
 }
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     alignSelf: 'center',
-    marginBottom: 10,
+    marginBottom: 50,
   },
   label: {
     fontSize: 20,
@@ -70,27 +70,37 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     color: '#0b0742',
     marginBottom: 20,
+    borderRadius: 10, // Added this line
   },
   inputPassword: {
     fontSize: 18,
     flex: 1,
     height: 50,
-    borderColor: "gray",
-    borderWidth: 1,
     color: '#0b0742',
+    borderRadius: 10, // Added this line
   },
   passwordContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     borderColor: 'gray',
     borderWidth: 1,
-    marginBottom: 20,
+    marginBottom: 50,
+    borderRadius: 10, // Added this line
   },
   eyeIcon: {
     padding: 10,
   },
-  buttonContainer: {
-    marginTop: 20,
+  
+  customButton: {
+    backgroundColor: "#5e72eb",
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 10, // Esto dará el borde redondeado
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: "#ffffff",
+    fontSize: 18,
   },
 });
 

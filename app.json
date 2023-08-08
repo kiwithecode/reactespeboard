@@ -10,8 +10,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "backgroundColor": "#ffffff"
+      "supportsTablet": true
+      
     },
     "android": {
       "adaptiveIcon": {
