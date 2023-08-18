@@ -1,12 +1,14 @@
-import React from 'react';
-import { View, StyleSheet, ActivityIndicator, Image, Text } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
+import LottieView from 'lottie-react-native';
+import React from 'react';
+import { StyleSheet } from 'react-native';
+
 
 const SplashScreen = ({ navigation }) => {
   React.useEffect(() => {
     const timer = setTimeout(() => {
       navigation.navigate('Login');
-    }, 2000);
+    }, 4000);
     return () => clearTimeout(timer);
   }, [navigation]);
 
@@ -15,11 +17,11 @@ const SplashScreen = ({ navigation }) => {
       colors={['#120C6E','#5E72EB']}
       style={styles.container}
     >
-      <Image
+      <LottieView
         style={styles.image}
-        source={require('../assets/logoW.png')}
+        source={require('../assets/animated/segurity.json')} autoPlay styles={styles.animationContainer}
       />
-      <ActivityIndicator size="large" color="#ffffff" />
+     
     </LinearGradient>
   );
 };
@@ -30,7 +32,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  image: {
+  animationContainer: {
     width: 150,
     height: 150,
     marginBottom: 20,

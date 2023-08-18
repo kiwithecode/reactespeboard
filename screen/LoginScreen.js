@@ -1,7 +1,8 @@
-import React, { useState } from "react";
-import { Button, TextInput, View, Alert, StyleSheet, Text, TouchableOpacity, Image } from "react-native";
-import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
+import LottieView from 'lottie-react-native';
+import React, { useState } from "react";
+import { Alert, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 
 const LoginScreen = ({ navigation }) => {
   const [username, setUsername] = useState("");
@@ -18,7 +19,7 @@ const LoginScreen = ({ navigation }) => {
 
   return (
     <LinearGradient colors={['#120C6E','#5E72EB','#ffffff' ,'#ffffff','#ffffff','#ffffff','#ffffff']} style={styles.container}>
-      <Image source={require('../assets/logoQ.png')} style={styles.logo} />
+      <LottieView source={require('../assets/animated/segurity.json')} autoPlay style={styles.animationContainer} />
       <Text style={styles.label}>Username</Text>
       <TextInput
         value={username}
@@ -50,9 +51,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 20,
   },
-  logo: {
-    width: 100,
-    height: 100,
+  animationContainer: {
+    width: 300,
+    height: 300,
     alignSelf: 'center',
     marginBottom: 50,
   },
