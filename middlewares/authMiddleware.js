@@ -9,6 +9,9 @@ function verifyToken(req, res, next) {
 
     jwt.verify(token, 'YOUR_SECRET_STRING', (err, decoded) => {
         if (err) {
+            if (err.name === 'TokenExpiredError') {
+                return res.status(401).send({ auth: false, message: 'Token has expired.' });
+            }
             return res.status(500).send({ auth: false, message: 'Failed to authenticate token.' });
         }
 
