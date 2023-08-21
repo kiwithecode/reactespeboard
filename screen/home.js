@@ -1,18 +1,18 @@
-import React from "react";
-import {
-  View,
-  Image,
-  Text,
-  StyleSheet,
-  SafeAreaView,
-  ScrollView,
-  Alert,
-  TouchableOpacity,
-} from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import * as LocalAuthentication from "expo-local-authentication";
+import React from "react";
+import {
+  Alert,
+  Image,
+  SafeAreaView,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
   const date = new Date();
   const options = {
     weekday: "long",
@@ -68,12 +68,14 @@ const HomeScreen = () => {
       >
         <Text style={styles.welcomeText}>Bienvenido Usuario 🪐🚀</Text>
         <View style={styles.profileIconContainer}>
-          <Image
-            style={styles.profileIcon}
-            source={{
-              uri: "https://cdn-icons-png.flaticon.com/512/3135/3135768.png",
-            }}
-          />
+        <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
+            <Image
+              style={styles.profileIcon}
+              source={{
+                uri: "https://cdn-icons-png.flaticon.com/512/3135/3135768.png",
+              }}
+            />
+          </TouchableOpacity>
         </View>
       </LinearGradient>
       <Text style={styles.dateText}>{formattedDate}</Text>
@@ -169,10 +171,11 @@ const styles = StyleSheet.create({
     shadowRadius: 5.46,
   },
   carouselItem: {
-    width: 380,
-    height: 300,
-    borderRadius: 40,
-    marginRight: 40,
+    width: 320,
+    height: 250,
+    borderRadius: 30,
+    marginRight: 60,
+    marginLeft: 30,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#FFFFFF",
