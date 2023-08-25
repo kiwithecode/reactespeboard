@@ -103,7 +103,7 @@ const HomeScreen = ({ navigation, route }) => {
       >
        <Text style={styles.welcomeText}>Bienvenido {username} 🪐🚀</Text>
         <View style={styles.profileIconContainer}>
-        <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
+        <TouchableOpacity onPress={() => navigation.navigate('Profile', { username: username })}>
             <Image
               style={styles.profileIcon}
               source={{

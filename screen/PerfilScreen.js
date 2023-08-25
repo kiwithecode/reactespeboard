@@ -1,36 +1,66 @@
-import * as DocumentPicker from 'expo-document-picker';
-import * as LocalAuthentication from 'expo-local-authentication';
-import React, { useState } from 'react';
-import { Alert, Button, Modal, StyleSheet, Text, View } from 'react-native';
+import * as DocumentPicker from "expo-document-picker";
+import * as LocalAuthentication from "expo-local-authentication";
+import React, { useEffect, useState } from "react";
+import { Alert, Button, Modal, StyleSheet, Text, View } from "react-native";
+import { ApiService } from "../service/service";
 
-const PerfilScreen =() => {
+const PerfilScreen = ({ route }) => {
+  const [perfil, setPerfil] = useState({});
+  const [loading, setLoading] = useState(true);
   const [modalVisible, setModalVisible] = useState(false);
+  const username = route.params?.username;
 
-  const pickDocument = async () => {
+  console.log("Nombre de usuario en PerfilScreen:", username); // <-- Imprime el nombre de usuario
+
+  useEffect(() => {
+    async function fetchPerfil() {
+      try {
+        const data = await ApiService.getPerfil(username);
+        setPerfil(data);
+      } catch (error) {
+        Alert.alert("Error", "Ocurrió un error al obtener el perfil.");
+        console.log(error);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchPerfil();
+  }, []);
+
+  const updateSignature = async () => {
     try {
       let result = await DocumentPicker.getDocumentAsync({
-        type: 'application/pdf',
+        type: "application/pdf",
         copyToCacheDirectory: true,
       });
 
-      if (result.type === 'success') {
+      if (result.type === "success") {
+        await ApiService.updateFirma(username, result.uri);
         setModalVisible(true);
       }
     } catch (error) {
-      Alert.alert("Error", "Hubo un problema al seleccionar el documento.");
+      Alert.alert("Error", "Hubo un problema al actualizar la firma.");
+      console.log(error); // Para ver detalles del error
     }
   };
 
   const authenticate = async () => {
     const hasHardware = await LocalAuthentication.hasHardwareAsync();
     if (!hasHardware) {
-      Alert.alert("Error", "Tu dispositivo no soporta autenticación biométrica.");
+      Alert.alert(
+        "Error",
+        "Tu dispositivo no soporta autenticación biométrica."
+      );
       return;
     }
 
     const isEnrolled = await LocalAuthentication.isEnrolledAsync();
     if (!isEnrolled) {
-      Alert.alert("Error", "No tienes huella digital o Face ID registrado en este dispositivo.");
+      Alert.alert(
+        "Error",
+        "No tienes huella digital o Face ID registrado en este dispositivo."
+      );
       return;
     }
 
@@ -42,26 +72,20 @@ const PerfilScreen =() => {
     }
   };
 
+  // Si aún se está cargando, muestra un mensaje de carga
+  if (loading) {
+    return <Text>Cargando perfil...</Text>;
+  }
+
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Perfil</Text>
+      <Text style={styles.field}>{perfil.name}</Text>
+      <Text style={styles.field}>{perfil.ID}</Text>
+      <Text style={styles.field}>{perfil["FECHA DE NACIMIENTO"]}</Text>
+      <Text style={styles.field}>{perfil.email}</Text>
 
-      <Text style={styles.label}>Nombre</Text>
-      <Text style={styles.field}>[Nombre del usuario]</Text>
-
-      <Text style={styles.label}>ID</Text>
-      <Text style={styles.field}>[ID del usuario]</Text>
-
-      <Text style={styles.label}>CI</Text>
-      <Text style={styles.field}>[CI del usuario]</Text>
-
-      <Text style={styles.label}>Correo</Text>
-      <Text style={styles.field}>[Correo del usuario]</Text>
-
-      <Button title="Subir firma (PDF)" onPress={pickDocument} />
-
+      <Button title="Subir firma (PDF)" onPress={updateSignature} />
       <View style={styles.space} />
-
       <Button title="Registrar Huella/Face ID" onPress={authenticate} />
 
       <Modal
@@ -79,37 +103,37 @@ const PerfilScreen =() => {
       </Modal>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    justifyContent: 'center',
+    justifyContent: "center",
   },
   title: {
     fontSize: 24,
-    fontWeight: 'bold',
-    textAlign: 'center',
+    fontWeight: "bold",
+    textAlign: "center",
     marginBottom: 20,
   },
   space: {
     height: 10,
   },
   label: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
     marginTop: 10,
   },
   field: {
     borderBottomWidth: 1,
-    borderColor: '#ccc',
+    borderColor: "#ccc",
     padding: 5,
   },
   centeredView: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    marginTop: 22
+    marginTop: 22,
   },
   modalView: {
     margin: 20,
@@ -120,15 +144,15 @@ const styles = StyleSheet.create({
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 2
+      height: 2,
     },
     shadowOpacity: 0.25,
     shadowRadius: 4,
-    elevation: 5
+    elevation: 5,
   },
   modalText: {
     marginBottom: 15,
-    textAlign: "center"
-  }
+    textAlign: "center",
+  },
 });
 export default PerfilScreen;
