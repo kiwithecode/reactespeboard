@@ -1,0 +1,2129 @@
+[
+    {
+        "id": "",
+        "name": "_id",
+        "email": "",
+        "password": "",
+        "other_details": {
+            "C\u00c9DULA": "",
+            "FECHA DE NACIMIENTO": "",
+            "firma": ""
+        },
+        "courses": {
+            "$oid": "64e7f91a5d8e97eeb0bdcd86"
+        }
+    },
+    {
+        "id": "L00013602",
+        "name": "ALVAREZ VEINTIMILLA MARCELO",
+        "email": "rmalvarez@espe.edu.ec",
+        "password": "19790519",
+        "other_details": {
+            "C\u00c9DULA": "0502519051",
+            "FECHA DE NACIMIENTO": "1979-05-19",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0J14": {
+                "9941": {
+                    "DESARROLLO DE VIDEO JUEGOS": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0K01": {
+                "9942": {
+                    "INVESTIGACI\u00d3N EN LA INGENIER\u00cdA DE SOFTWARE": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "NaN": {
+                "12449": {
+                    "PI PROFESIONALIZANTE": {
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00013606",
+        "name": "ARIAS ALMEIDA IVONE",
+        "email": "giarias@espe.edu.ec",
+        "password": "00000000",
+        "other_details": {
+            "C\u00c9DULA": "0602667610",
+            "FECHA DE NACIMIENTO": null,
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0J01": {
+                "9943": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"A\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "NaN": {
+                "7144": {
+                    "GESTI\u00d3N DE PROCESO SOFTWARE": {
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "10:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00007531",
+        "name": "BEDON SALAZAR PATRICIO",
+        "email": "epbedon@espe.edu.ec",
+        "password": "00000000",
+        "other_details": {
+            "C\u00c9DULA": "0502253271",
+            "FECHA DE NACIMIENTO": null,
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0J01": {
+                "9969": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "NaN": {
+                "7145": {
+                    "LABORATORIO DE PRODUCCI\u00d3N DE SOFTWARE": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "12:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00242090",
+        "name": "BORJA ALMEIDA GONZALO",
+        "email": "lgborja2@espe.edu.ec",
+        "password": "19680327",
+        "other_details": {
+            "C\u00c9DULA": "0501514061",
+            "FECHA DE NACIMIENTO": "1968-03-27",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0I08": {
+                "9945": {
+                    "SISTEMAS OPERATIVOS": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0L05": {
+                "9946": {
+                    "AUDITORIA DE TECNOLOG\u00cdA DE INFORMACI\u00d3N Y COMUNICACI\u00d3N \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0H04": {
+                "9990": {
+                    "SISTEMAS AVANZADOS DE BASES DE DATOS": {
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0I01": {
+                "9991": {
+                    "COMPUTACI\u00d3N DIGITAL": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00007246",
+        "name": "CARRILLO MEDINA JOSE LUIS",
+        "email": "jlcarrillo@espe.edu.ec",
+        "password": "19670716",
+        "other_details": {
+            "C\u00c9DULA": "0501553788",
+            "FECHA DE NACIMIENTO": "1967-07-16",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0L03": {
+                "9950": {
+                    "APLICACIONES BASADAS EN EL CONOCIMIENTO": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMPA0K03": {
+                "9951": {
+                    "LECTURA Y ESCRITURA DE TEXTOS ACAD\u00c9MICOS": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "NaN": {
+                "12433": {
+                    "PI PROFESIONALIZANTE": {
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00246675",
+        "name": "CHASIQUIZA MOLINA EDWIN",
+        "email": "eochasiquiza@espe.edu.ec",
+        "password": "19830207",
+        "other_details": {
+            "C\u00c9DULA": "0502767254",
+            "FECHA DE NACIMIENTO": "1983-02-07",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0J09": {
+                "9983": {
+                    "ESTRUCTURA DE DATOS \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0J01": {
+                "9988": {
+                    "FUNDAMENTOS DE PROGRAMACION \"B\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        },
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "NaN": {
+                "7143": {
+                    "APLICACIONES M\u00d3VILES": {
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "10:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G12": {
+                "9954": {
+                    "DESARROLLO DE APLICACIONES M\u00d3VILES": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G16": {
+                "9955": {
+                    "APLICACIONES DISTRIBUIDAS": {
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00006925",
+        "name": "CORRAL DIAZ ALEXANDRA",
+        "email": "macorral@espe.edu.ec",
+        "password": "19730627",
+        "other_details": {
+            "C\u00c9DULA": "0502767254",
+            "FECHA DE NACIMIENTO": "1973-06-27",
+            "firma": ""
+        },
+        "courses": {
+            "NaN": {
+                "12439": {
+                    "PI-PROFESIONALIZANTE": {
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G10": {
+                "9956": {
+                    "INGENIER\u00cdA DE REQUISITOS DE SOFTWARE \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00007293",
+        "name": "ESCOBAR SANCHEZ MILTON",
+        "email": "meescobar@espe.edu.ec",
+        "password": "19750424",
+        "other_details": {
+            "C\u00c9DULA": "1710557545",
+            "FECHA DE NACIMIENTO": "1975-04-24",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0J01": {
+                "9957": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"A\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G21": {
+                "9959": {
+                    "ARQUITECTURA DE SOFTWARE": {
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0I09": {
+                "9958": {
+                    "INGENIER\u00cdA DE LA SEGURIDAD DEL SOFTWARE": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00007294",
+        "name": "ESPINEL MENA PATRICIO",
+        "email": "gpespinel@espe.edu.ec",
+        "password": "19731111",
+        "other_details": {
+            "C\u00c9DULA": "0501645790",
+            "FECHA DE NACIMIENTO": "1973-11-11",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0G11": {
+                "9961": {
+                    "AN\u00c1LISIS Y DISE\u00d1O DE SOFTWARE": {
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0J07": {
+                "9960": {
+                    "PROGRAMACI\u00d3N ORIENTADA A OBJETOS \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0J01": {
+                "9962": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"B\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00007296",
+        "name": "ESPINOSA GALLARDO EDISON",
+        "email": "egespinosa1@espe.edu.ec",
+        "password": "19670524",
+        "other_details": {
+            "C\u00c9DULA": "0501577910",
+            "FECHA DE NACIMIENTO": "1967-05-24",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0G25": {
+                "9964": {
+                    "GESTI\u00d3N DE PROYECTOS DE SOFTWARE": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "NaN": {
+                "12447": {
+                    "PI-PROFESIONALIZANTE": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G18": {
+                "9965": {
+                    "ASEGURAMIENTO DE LA CALIDAD DE SOFTWARE": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00040954",
+        "name": "GARCES GUAYTA LUCAS",
+        "email": "lrgarces@espe.edu.ec",
+        "password": "00000000",
+        "other_details": {
+            "C\u00c9DULA": "1802665800",
+            "FECHA DE NACIMIENTO": null,
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0G01": {
+                "9966": {
+                    "FUNDAMENTOS DE INGENIER\u00cdA DE SOFTWARE \"A\"": {
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G24": {
+                "9967": {
+                    "DESARROLLO DE SOFTWARE APLICADO AL DOMINIO DE LA INTERCULTURALIDAD": {
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00010621",
+        "name": "GUERRA CRUZ LUIS ALBERTO",
+        "email": "laguerra@espe.edu.ec",
+        "password": "00000000",
+        "other_details": {
+            "C\u00c9DULA": "1705547527",
+            "FECHA DE NACIMIENTO": null,
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0J06": {
+                "9968": {
+                    "PROGRAMACI\u00d3N ORIENTADA A OBJETOS \"A\"": {
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0J01": {
+                "9952": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"C\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0F03": {
+                "9970": {
+                    "MODELOS DISCRETOS PARA INGENIER\u00cdA DE SOFTWARE": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00006924",
+        "name": "JACHO GUANOLUISA NANCY",
+        "email": "dpjacho@espe.edu.ec",
+        "password": "19740321",
+        "other_details": {
+            "C\u00c9DULA": "0501963086",
+            "FECHA DE NACIMIENTO": "1974-03-21",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0J13": {
+                "9971": {
+                    "COMPUTACI\u00d3N GR\u00c1FICA": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "NaN": {
+                "12445": {
+                    "PI PROFESIONALIZANTE": {
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G15": {
+                "7146": {
+                    "EVALUACI\u00d3N DE SOFTWARE": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "10:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00007705",
+        "name": "JACOME GUERRERO SANTIAGO",
+        "email": "psjacome@espe.edu.ec",
+        "password": "19700405",
+        "other_details": {
+            "C\u00c9DULA": "1001689791",
+            "FECHA DE NACIMIENTO": "1970-04-05",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0I07": {
+                "9973": {
+                    "REDES DE COMPUTADORES \"A\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G06": {
+                "9974": {
+                    "MODELOS DE PROCESOS DE DESARROLLO DE SOFTWARE": {
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0J01": {
+                "9975": {
+                    "FUNDAMENTOS DE PROGRAMACION \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00301695",
+        "name": "LOPEZ CHICO XIMENA",
+        "email": "lglopez5@espe.edu.ec",
+        "password": "19740525",
+        "other_details": {
+            "C\u00c9DULA": "0502002413",
+            "FECHA DE NACIMIENTO": "1974-05-25",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0G04": {
+                "9976": {
+                    "INGENIERIA DE USABILIDAD": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0J01": {
+                "9977": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"B\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                },
+                "9978": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"B\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00301695",
+        "name": "LOPEZ OTA\u00d1EZ RUBEN",
+        "email": "lglopez5@espe.edu.ec",
+        "password": "19740525",
+        "other_details": {
+            "C\u00c9DULA": "0502002413",
+            "FECHA DE NACIMIENTO": "1974-05-25",
+            "firma": ""
+        },
+        "courses": {
+            "NaN": {
+                "12466": {
+                    "PI-PROFESIONALIZANTE": {}
+                }
+            },
+            "COMP A0G07": {
+                "9979": {
+                    "PROGRAMACI\u00d3N WEB": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G23": {
+                "9980": {
+                    "CONSTRUCCI\u00d3N Y EVOLUCI\u00d3N DEL SOFTWARE": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G19": {
+                "9981": {
+                    "DESARROLLO DE SOFTWARE SEGURO": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0J01": {
+                "9982": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"B\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00007764",
+        "name": "MONTALUISA PILATASIG FABIAN",
+        "email": "fjmontaluisa@espe.edu.ec",
+        "password": "19750911",
+        "other_details": {
+            "C\u00c9DULA": "0502166796",
+            "FECHA DE NACIMIENTO": "1975-09-11",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0G09": {
+                "9984": {
+                    "DESARROLLO WEB AVANZADO \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0000": {
+                "9992": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0J01": {
+                "9985": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"A\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00007764",
+        "name": "MONTALUISA YUGLA JAVIER",
+        "email": "fjmontaluisa@espe.edu.ec",
+        "password": "19750911",
+        "other_details": {
+            "C\u00c9DULA": "0502166796",
+            "FECHA DE NACIMIENTO": "1975-09-11",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0J08": {
+                "9986": {
+                    "PROGRAMACI\u00d3N ORIENTADA A OBJETOS \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00242132",
+        "name": "NAVAS MOYA PATRICIO",
+        "email": "mpnavas@espe.edu.ec",
+        "password": "19740515",
+        "other_details": {
+            "C\u00c9DULA": "0502029275",
+            "FECHA DE NACIMIENTO": "1974-05-15",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0H02": {
+                "9989": {
+                    "SISTEMAS DE BASES DE DATOS": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0H01": {
+                "12015": {
+                    "SISTEMAS DE ADMINISTRACI\u00d3N DE BASES DE DATOS \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00006926",
+        "name": "UQUILLAS SANTAMARIA PABLO",
+        "email": "pfuquillas@espe.edu.ec",
+        "password": "00000000",
+        "other_details": {
+            "C\u00c9DULA": "0601372774",
+            "FECHA DE NACIMIENTO": null,
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0J02": {
+                "9987": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"A\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                },
+                "11206": {
+                    "FUNDAMENTOS DE PROGRAMACI\u00d3N \"B\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00051351",
+        "name": "UYAGUARI UYAGUARI ALVARO",
+        "email": "aduyaguari@espe.edu.ec",
+        "password": "19800825",
+        "other_details": {
+            "C\u00c9DULA": "0103411112",
+            "FECHA DE NACIMIENTO": "1980-08-25",
+            "firma": ""
+        },
+        "courses": {
+            "NaN": {
+                "12463": {
+                    "PI PROFESIONALIZANTE": {
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0L02 ": {
+                "9948": {
+                    "TECNOLOG\u00cdAS Y SISTEMAS DE LA INFORMACI\u00d3N \"A\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "13:30",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "15:30",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                },
+                "9994": {
+                    "TECNOLOG\u00cdAS Y SISTEMAS DE LA INFORMACI\u00d3N \"B\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                },
+                "9997": {
+                    "TECNOLOG\u00cdAS Y SISTEMAS DE LA INFORMACI\u00d3N \"C\"": {
+                        "MARTES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0L05": {
+                "9995": {
+                    "AUDITORIA DE TECNOLOG\u00cdA DE INFORMACI\u00d3N Y COMUNICACI\u00d3N \"B\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0H01": {
+                "12017": {
+                    "SISTEMAS DE ADMINISTRACI\u00d3N DE BASES DE DATOS \"B\"": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "MIERC": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "L00063190",
+        "name": "QUINATOA AREQUIPA EDWIN",
+        "email": "eequitanoa3@espe.edu.ec",
+        "password": "19810213",
+        "other_details": {
+            "C\u00c9DULA": "0502563372",
+            "FECHA DE NACIMIENTO": "1981-02-13",
+            "firma": ""
+        },
+        "courses": {
+            "COMP A0J11": {
+                "9996": {
+                    "COMPUTACI\u00d3N PARALELA": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "11:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "13:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G15": {
+                "13340": {
+                    "PRUEBAS DE SOFTWARE": {
+                        "LUNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "09:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "11:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "COMP A0G01": {
+                "9993": {
+                    "FUNDAMENTOS DE INGENIER\u00cdA DE SOFTWARE \"B\"": {
+                        "JUEVES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        },
+                        "VIERNES": {
+                            "Hora inicio": {
+                                "hora": "07:00",
+                                "tema": ""
+                            },
+                            "Hora fin": {
+                                "hora": "09:00",
+                                "observaciones": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+]
