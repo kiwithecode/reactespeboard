@@ -10,17 +10,23 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { ApiService } from '../service/service';
 
 const LoginScreen = ({ navigation }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [hidePassword, setHidePassword] = useState(true);
 
-  const onLogin = () => {
-    if (username === "Admin" && password === "admin") {
-      navigation.navigate("Home");
-    } else {
-      Alert.alert("Error", "Credenciales incorrectas");
+  const onLogin = async () => {
+    try {
+      const response = await ApiService.login(username, password);
+      if (response.message === "Login successful") {
+        navigation.navigate("Home");
+      } else {
+        Alert.alert("Error", response.message);
+      }
+    } catch (error) {
+      Alert.alert("Error", "An error occurred while logging in.");
     }
   };
 
