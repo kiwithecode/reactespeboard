@@ -21,7 +21,7 @@ const LoginScreen = ({ navigation }) => {
     try {
       const response = await ApiService.login(username, password);
       if (response.message === "Login successful") {
-        navigation.navigate("Home");
+        navigation.navigate("Home", { username: response.user });
       } else {
         Alert.alert("Error", response.message);
       }
@@ -29,6 +29,7 @@ const LoginScreen = ({ navigation }) => {
       Alert.alert("Error", "An error occurred while logging in.");
     }
   };
+  
 
   return (
     <LinearGradient

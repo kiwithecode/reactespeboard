@@ -1,6 +1,6 @@
 import { LinearGradient } from "expo-linear-gradient";
 import * as LocalAuthentication from "expo-local-authentication";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Alert,
   Image,
@@ -11,8 +11,10 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { ApiService } from '../service/service'; // Asegúrate de cambiar la ruta al archivo correcto
 
-const HomeScreen = ({ navigation }) => {
+const HomeScreen = ({ navigation, route }) => {
+  const username = route.params?.username || "Usuario";
   const date = new Date();
   const options = {
     weekday: "long",
@@ -22,15 +24,48 @@ const HomeScreen = ({ navigation }) => {
   };
   const formattedDate = date.toLocaleDateString("es-ES", options);
 
-  // Estado para los Items
-  const [registeredSubjects, setRegisteredSubjects] = React.useState([]);
+  // Determinar el día actual en español
+  const dayNamesInSpanish = ["DOMINGO", "LUNES", "MARTES", "MIÉRCOLES", "JUEVES", "VIERNES", "SÁBADO"];
+  const currentDay = dayNamesInSpanish[date.getDay()];
 
-  const subjects = [
-    { name: "Arquitectura de software", time: "7 am a 9 am", colors: ["#120C6E", "#5E72EB"] },
-    { name: "Construccion y Evolucion", time: "9 am a 11 am", colors: ["#5E72EB", "#ff9190"] },
-    { name: "Gestion de proyectos", time: "11 am a 12 am", colors: ["#ff9190", "#fdc094"] },
-    { name: "Seguridad", time: "13:30 pm a 15:30 pm", colors: ["#fdc094", "#120C6E"] },
-  ];
+  // Estado para los Items
+  const [registeredSubjects, setRegisteredSubjects] = useState([]);
+  const [subjects, setSubjects] = useState([]); 
+
+  useEffect(() => {
+    const username = route.params?.username;
+
+    async function fetchHorarios() {
+      try {
+        const data = await ApiService.getHorarios(username);
+
+        // Convertir la respuesta al formato que tu UI espera solo para las materias del día actual
+        const convertedData = [];
+
+        for (let key in data) {
+          for (let innerKey in data[key]) {
+            for (let courseName in data[key][innerKey]) {
+              if (data[key][innerKey][courseName][currentDay]) {
+                const startTime = data[key][innerKey][courseName][currentDay]["Hora inicio"]["hora"];
+                const endTime = data[key][innerKey][courseName][currentDay]["Hora fin"]["hora"];
+                convertedData.push({
+                  name: courseName,
+                  time: `${startTime} a ${endTime}`,
+                  colors: ["#120C6E", "#5E72EB"]
+                });
+              }
+            }
+          }
+        }
+
+        setSubjects(convertedData);
+      } catch (error) {
+        Alert.alert("Error", "Ocurrió un error al obtener los horarios.");
+      }
+    }
+
+    fetchHorarios();
+  }, []);
 
   const handleRegister = async (subjectName) => {
     const hasHardware = await LocalAuthentication.hasHardwareAsync();
@@ -66,7 +101,7 @@ const HomeScreen = ({ navigation }) => {
         colors={["#5E72EB", "#5E72EB", "#FF9190"]}
         style={styles.banner}
       >
-        <Text style={styles.welcomeText}>Bienvenido Usuario 🪐🚀</Text>
+       <Text style={styles.welcomeText}>Bienvenido {username} 🪐🚀</Text>
         <View style={styles.profileIconContainer}>
         <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
             <Image
@@ -86,20 +121,20 @@ const HomeScreen = ({ navigation }) => {
         contentContainerStyle={styles.carouselContentContainer}
       >
         {subjects
-          .filter((subject) => !registeredSubjects.includes(subject.name))
-          .map((subject) => (
-            <LinearGradient
-              key={subject.name}
-              colors={subject.colors}
-              style={styles.carouselItem}
-            >
-              <Text style={styles.subjectText}>{subject.name}</Text>
-              <Text style={styles.timeText}>{subject.time}</Text>
-              <TouchableOpacity onPress={() => handleRegister(subject.name)}>
+    .filter((subject) => !registeredSubjects.includes(subject.name))
+    .map((subject, index) => (
+        <LinearGradient
+            key={`${subject.name}-${index}`}  // Aquí usamos una combinación del nombre del curso y el índice
+            colors={subject.colors}
+            style={styles.carouselItem}
+        >
+            <Text style={styles.subjectText}>{subject.name}</Text>
+            <Text style={styles.timeText}>{subject.time}</Text>
+            <TouchableOpacity onPress={() => handleRegister(subject.name)}>
                 <Text style={styles.registerText}>Registrar</Text>
-              </TouchableOpacity>
-            </LinearGradient>
-          ))}
+            </TouchableOpacity>
+        </LinearGradient>
+))}
         {registeredSubjects.length === subjects.length && (
           <View style={styles.completedContainer}>
             <Text style={styles.completedText}>Buen Trabajo!! 👍 👍</Text>
